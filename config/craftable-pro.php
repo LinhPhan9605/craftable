@@ -18,7 +18,7 @@ return [
     // define if track user last activity timestamp
     'track_user_last_active_time' => true,
 
-    'handle-inertia-request-class' => \Brackets\CraftablePro\Http\Middleware\CraftableProHandleInertiaRequests::class,
+    'handle-inertia-request-class' => App\Http\Middleware\CraftableProHandleInertiaRequests::class,
 
     'self_registration' => [
         // define if users can self register into craftable pro interface
